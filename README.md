@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Kalvium Lab | MORE REACT HOOKS
 
-In the project directory, you can run:
+## Learning Goals
 
-### `npm start`
+In this exercise, the goal is to learn other types of hooks:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React Hooks:
+  1. useReducer
+  2. useRef
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting started
 
-### `npm test`
+1. Fork this repo
+2. Clone this repo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Whenever you create a first significant change, you should make your first commit.
 
-### `npm run build`
+3. Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instructions
+In this lab we will try to work with other hooks like `useReducer` and  `useRef` in react.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`react-hooks-name-of-the-hook`
 
-### `npm run eject`
+### Task 1 | `useReducer`:
+Your friend wants you to create a system where he can list down the things that he perform on a daily basis. The only feature that your friend want out of the system is that, once you add task -> it should get a toggle button -> which can replace his task with some other text, so that noone else can read that particular task.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+For eg:
+If he added: `Morning Walk`, and he clicked on the toggle button --> `The content is hidden` -> this text should replace `Morning Walk`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Here is gif, to get a better understanding:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/useReducer.gif)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**NOTE:** The above gif is just for your reference, in terms of styling. You can style the above application, in any you want. The only thing that you should keep in mind, is that --> the functionality must be achieved. 
 
-## Learn More
+***Also, there are many ways to solve this problem, but for now, it will be expected that you solve this problem using `useReducer` hook. It's not that you cannot use other hooks, YOU CAN USE, other hooks as well, but you should complete this task WITHOUT using `useReducer`***
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Task 2 | `useRef`:
 
-### Code Splitting
+The issue, with the above application is that, if we add too many items to our list, then after some time, we need to scroll back to the top to write something and add that to the list. Your friend is getting frustrated because of this. So, he asked you to fix it. 
+Your task is to create a button - at the bottom of all the items, which when clicked -> brings the `focus` of the cursor back to the input box - as shown below.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/useRef.gif)
 
-### Analyzing the Bundle Size
+To achieve the above functionality, you need to use `useRef`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Happy Coding Kalvium ❤️!
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
