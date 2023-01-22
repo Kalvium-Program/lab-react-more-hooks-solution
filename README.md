@@ -38,7 +38,7 @@ Here is gif, to get a better understanding:
 
 **NOTE:** The above gif is just for your reference, in terms of styling. You can style the above application, in any you want. The only thing that you should keep in mind, is that --> the functionality must be achieved. 
 
-***Also, there are many ways to solve this problem, but for now, it will be expected that you solve this problem using `useReducer` hook. It's not that you cannot use other hooks, YOU CAN USE, other hooks as well, but you should complete this task WITHOUT using `useReducer`***
+***Also, there are many ways to solve this problem, but for now, it will be expected that you solve this problem using `useReducer` hook. It's not that you cannot use other hooks, YOU CAN USE, other hooks as well, but you should complete this task by using `useReducer`***
 
 
 ### Task 2 | `useRef`:
