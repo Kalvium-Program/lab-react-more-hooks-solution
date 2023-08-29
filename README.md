@@ -18,7 +18,7 @@ In this exercise, the goal is to learn other types of hooks:
 
 Whenever you create a first significant change, you should make your first commit.
 
-3. Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
+3. Follow these [guidelines to add, commit and push changes](https://github.com/Kalvium-Program/general-guidelines-labs-project-builders).
 
 
 ## Instructions
